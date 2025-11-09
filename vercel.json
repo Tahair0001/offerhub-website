@@ -1,3 +1,5 @@
+[file name]: vercel.json
+[file content begin]
 {
   "version": 2,
   "builds": [
@@ -6,11 +8,11 @@
       "use": "@vercel/static"
     },
     {
-      "src": "css/*",
+      "src": "*.css",
       "use": "@vercel/static"
     },
     {
-      "src": "js/*",
+      "src": "*.js",
       "use": "@vercel/static"
     }
   ],
@@ -21,3 +23,4 @@
     }
   ]
 }
+[file content end]
