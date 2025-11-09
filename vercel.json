@@ -1,5 +1,3 @@
-[file name]: vercel.json
-[file content begin]
 {
   "version": 2,
   "builds": [
@@ -24,3 +22,4 @@
   ]
 }
 [file content end]
+
